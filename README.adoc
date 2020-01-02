@@ -1,0 +1,23 @@
+= Kubernetes Applications Step-by-step
+
+In this series of examples we will build a simple Python/Django based application
+and deploy it on a Kubernetes cluster. 
+We will go step-by-step and add Kubernetes components and learn about them
+as we need them.
+
+Here is what we are going to learn.
+
+* Step Zero: build a simple Django application
+** We will not _learn_ Django here. 
+We will use Django as a platform because it's pretty easy to start with and (we hope) 
+most of the developers these days can read and understand Python code.
+At the same time this simple Django application is realistic enough to be a practical example.
+* Step One: Create a single Pod
+* Step Two: Create a ReplicaSet
+* Step Three: Create a Deployment
+* Step Four: Create a Service
+* Step Five: Create an Ingress
+* Step Six: Create a database Deployment
+* Step Seven: Use ConfigMaps and Secrets
+* Step Eight: Create a frontend web server and scale it up
+* Step Nine: Create a StatefulSet for the database
